@@ -1,5 +1,6 @@
-# SKTFPLRAO*EURWBPGHTSDZ
+# -*- coding: utf-8 -*-
 
+# SKTFPLRAO*EURWBPGHTSDZ
 KEYS = (
     '#',
     'S-', 'K-', 'T-', 'F-', 'P-', 'L-', 'R-',
@@ -201,5 +202,8 @@ KEYMAPS = {
     },
 }
 
-DICTIONARIES_ROOT = 'asset:plover:assets'
-DEFAULT_DICTIONARIES = ()
+DICTIONARIES_ROOT = 'asset:plover_portuguese:assets'
+DEFAULT_DICTIONARIES = (
+        'user.json',
+        'base.json',
+)
